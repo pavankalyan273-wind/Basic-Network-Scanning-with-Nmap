@@ -1,0 +1,35 @@
+
+# Nmap Scan Report
+Target: solvetic.com (178.33.118.246)
+Scan Date: 2025-07-11
+Command Used: nmap -sV solvetic.com
+
+Nmap scan report for solvetic.com (178.33.118.246)
+Host is up (0.15s latency).
+rDNS record for 178.33.118.246: mail.solvetic.com
+Not shown: 983 closed tcp ports (reset)
+
+PORT     STATE    SERVICE       VERSION
+21/tcp   open     ftp           Pure-FTPd
+22/tcp   open     ssh           OpenSSH 5.3 (protocol 2.0)
+25/tcp   open     smtp
+53/tcp   open     domain        ISC BIND 9.8.2rc1 (RedHat Enterprise Linux 6)
+80/tcp   open     http          Apache httpd
+110/tcp  open     pop3          Dovecot pop3d
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  open     imap          Dovecot imapd
+179/tcp  filtered bgp
+443/tcp  open     ssl/http      Apache httpd
+445/tcp  filtered microsoft-ds
+465/tcp  open     ssl/smtp?
+587/tcp  open     submission?
+636/tcp  filtered ldap
+993/tcp  open     imaps?
+995/tcp  open     pop3s?
+
+Service Info: OS: Linux; CPE: cpe:/o:redhat:enterprise_linux:6
+
+Note:
+- Some services are unrecognized and returned fingerprint data.
+- For more accurate detection, submit unknown fingerprints to: https://nmap.org/cgi-bin/submit.cgi?new-service
