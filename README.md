@@ -48,7 +48,24 @@ nmap -sV solvetic.com
 - **Operating System**: RedHat Enterprise Linux 6
 
 ---
+## Demo Video Command (Recording)
 
+```bash
+
+# Open SimpleScreenRecorder
+simplescreenrecorder
+
+```
+
+Show how to run the command:
+
+```bash
+nmap -sV solvetic.com
+```
+Scroll and explain each open port/service.
+Mention any unusual results like "unknown fingerprint".
+
+----
 ## Notes
 - Some ports returned unrecognized service fingerprints.
 - You may report unknown services to Nmap for better detection: https://nmap.org/cgi-bin/submit.cgi?new-service
